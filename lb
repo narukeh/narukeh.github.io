@@ -1,5 +1,5 @@
 #!/bin/bash
-name="Hekuran Gashi"
+name="Hekuran"
 webdir="$PWD"
 website="https://hekuran.gitlab.io/" # Keep a trailing slash.
 css="../cssjs/main_style.css"
