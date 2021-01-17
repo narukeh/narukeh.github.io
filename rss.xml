@@ -18,6 +18,20 @@
 <!-- LB -->
 
 <item>
+<title>New domain</title>
+<guid>https://hekuran.gitlab.io/blog.html#new-domain</guid>
+<pubDate>Sun, 17 Jan 2021 22:45:42 +0100</pubDate>
+<description><![CDATA[
+<p>Since a few weeks a had the new domain, <strong>hekuran.ga</strong>, the old domains are still up of course, so the RSS will still work.</p>
+<p>I got the domain name from <a href="https://www.freenom.com/">Freenom</a>, since they are for free, and even if it weren't i wanted that <strong>.ga</strong>. they have other tld.</p>
+<p>I did strugle getting one though, it turned out if they dont &quot;like&quot; your ip, you wont get one. So i had to use a vpn to open an account, and only then i was able to get it.</p>
+]]></description>
+</item>
+
+
+
+
+<item>
 <title>First bloatpost</title>
 <guid>https://hekuran.gitlab.io/blog.html#first-bloatpost</guid>
 <pubDate>Sun, 27 Dec 2020 21:56:16 +0100</pubDate>
