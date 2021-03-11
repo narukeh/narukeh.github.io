@@ -3,7 +3,7 @@ body {
   font-family: Lexend Deca, Cantarell, sans-serif;
   line-height: 1.5;
   margin: 0 auto;
-  max-width: 55em;
+  max-width: 40em;
   padding: 0 1em;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -75,7 +75,7 @@ th, td {
 @media (prefers-color-scheme: dark) {
   body {
     color: #bbb;
-    background: #282828;
+    background: #222;
   }
   a:link, a:visited {
     color: #9bf;
@@ -98,4 +98,32 @@ th, td {
   th, td {
     border-color: #666;
   }
+}
+
+#cat { display: inline; }
+#links img { height: 1.25em; }
+h1 img { height: 1em; }
+.entry h2 { margin: 5px auto 2px auto; }
+.entry small { color: ebdbb2; }
+.entry {
+	padding: 10px;
+	border-radius: 0 5px 18px 0;
+	margin-bottom: 50px;
+	background: #1d2021;
+	border: 1px solid #cc241d;
+	border-left: 10px solid #689d6a;
+}
+.even img  {
+	padding: 20px;
+	/* padding-top: 1em; */
+	float: right;
+	max-width: 400px;
+	max-height: 225px;
+}
+.odd img {
+	padding: 20px;
+	/* padding-top: 1em; */
+	float: left;
+	max-width: 400px;
+	max-height: 225px;
 }
