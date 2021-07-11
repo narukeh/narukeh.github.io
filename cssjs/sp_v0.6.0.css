@@ -10,17 +10,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 0.5em 0;
   line-height: 1.2;
 }
-a:link {
-  color: #00e;
+a:link, a:visited {
+  color: #03c;
+  text-decoration: none;
 }
-a:visited {
-  color: #518;
-}
-a:focus, a:hover {
-  color: #03f;
-}
-a:active {
-  color: #e00;
+a:hover, a:active, a:focus {
+  color: #06f;
+  text-decoration: underline;
 }
 h1 a:empty:before, h2 a:empty:before, h3 a:empty:before,
 h4 a:empty:before, h5 a:empty:before, h6 a:empty:before {
@@ -114,17 +110,11 @@ a img:hover {
     color: #bbb;
     background: #222;
   }
-  a:link {
+  a:link, a:visited {
     color: #9bf;
   }
-  a:visited {
-    color: #caf;
-  }
-  a:focus, a:hover {
-    color: #9cf;
-  }
-  a:active {
-    color: #faa;
+  a:hover, a:active {
+    color: #acf;
   }
   pre, code, samp, kbd {
     color: #6cf;
