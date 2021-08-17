@@ -18,6 +18,21 @@
 <!-- LB -->
 
 <item>
+<title>New Site! Now a colorized cli/shell site!</title>
+<guid>https://hekuran.gitlab.io/blog.html#new-site-now-a-colorized-clishell-site</guid>
+<pubDate>Tue, 10 Aug 2021 11:58:17 +0200</pubDate>
+<description><![CDATA[
+<small><small><p>It came very closse to overcome the 2048 time waster, you blink once and one hour is gone.</p></small></small>
+<p><a href="filmsbykris.com">Kris</a> has done a video about <code>ANSI</code> colors and effects on the POSIX shell, some time ago. So i did a version of my site (only the index.html) in which you dont neew a web browser. Only write this command:</p>
+<pre><code class="language-bash">curl -L hekuran.ga/cli
+</code></pre>
+<p>Using <a href="https://archlinux.org/packages/community/any/python-ansi2html/">ansi2html</a>, i made a html version of it: <a href="https://hekuran.ga/cli.html">https://hekuran.ga/cli.html</a></p>
+<p>Now all i need to do is to figure it out how to do it in on single URL, that then will redirect you respectively. For example, the single URL <a href="https://wttr.in/berlin">https://wttr.in/berlin</a> can be requested from a WebBrowser and a tool like <code>curl</code>. But in my case there is the file <code>cli</code> and <code>cli.html</code>.</p>
+]]></description>
+</item>
+
+
+<item>
 <title>New domain</title>
 <guid>https://hekuran.gitlab.io/blog.html#new-domain</guid>
 <pubDate>Sun, 17 Jan 2021 22:45:42 +0100</pubDate>
@@ -27,8 +42,6 @@
 <p>I did strugle getting one though, it turned out if they dont &quot;like&quot; your ip, you wont get one. So i had to use a vpn to open an account, and only then i was able to get it.</p>
 ]]></description>
 </item>
-
-
 
 
 <item>
